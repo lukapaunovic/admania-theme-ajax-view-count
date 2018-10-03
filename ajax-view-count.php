@@ -17,10 +17,9 @@ header('Content-Type: application/json');
 if(!empty($post_id) && ( $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' )) {
 	$view_count = admania_get_post_views($post_id);
 	admania_set_post_views($post_id);
-
 	$arr = array("views_count"=>$view_count);
-
 } else {
 	$arr = array("status"=>'403');
 }
+
 echo json_encode($arr, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
