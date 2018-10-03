@@ -1,5 +1,5 @@
 # admania-theme-ajax-view-count
-As Admania theme lacked the feature of performing Ajax-View count while caching is enabled, I developed this feature because many of my clients are high-traffic sites and they are using this theme.
+As Admania theme lacked AJAX View Count feature when caching is enabled, I developed it because many of my clients are using it and they need caching because of high traffic.
 
 # Instructions
 
