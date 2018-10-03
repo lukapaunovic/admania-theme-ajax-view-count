@@ -1,7 +1,7 @@
 <script>
 jQuery(document).ready(function( $ ) {
 	if ( window.location.pathname != '/' ) {
-    // Index (home) page
+    // If not Index (home) page
 		$.ajax({
 			type: 'POST',
 			url: '/wp-content/themes/admania/ajax-view-count.php',
