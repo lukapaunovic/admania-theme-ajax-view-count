@@ -1,6 +1,6 @@
 <script>
 jQuery(document).ready(function( $ ) {
-if ( window.location.pathname != '/' ) {
+	if ( window.location.pathname != '/' ) {
     // Index (home) page
 		$.ajax({
 			type: 'POST',
@@ -16,6 +16,6 @@ if ( window.location.pathname != '/' ) {
 				console.log("Something is wrong with Ajax View Count");
 			}
 		});
-	});
-}
+	}
+});
 </script>
