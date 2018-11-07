@@ -3,7 +3,7 @@ As Admania theme lacks AJAX View Count feature when caching is enabled, I develo
 
 # Instructions
 
-1. Place the footer.php **content** before the ```</body>``` tag in ```/wp-content/themes/admania/footer.php```
+1. Place the script.php **content** before the ```<div class="admania_viewcnt">``` tag in ```wp-content/themes/admania/lib/includes/admania-customtemp-tags.php```
 2. Place **ajax-view-count.php** in ```/wp-content/themes/admania/```
 3. Done, your admania view count now works with caching!
 
